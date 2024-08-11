@@ -5,6 +5,25 @@ __[1 Firewall en Sistemas Operativos](#1-Firewall-en-Sistemas-Operativos)__
 
 __[2 Cookies Hacking](#2-Cookies-Hacking)__
 
+__[3 Filosofia del Hacking](#3-Filosofia-del-Hacking)__
+
+__[4 Cripgrafia](#4-Cripgrafia)__
+
+__[5 La metodología OSINT](#5-La-metodología-OSINT)__
+
+__[6 CVEs y CEWs](#6-CVEs-y-CEWs)__
+
+__[7 Phising de redes sociales](#7-Phising-de-redes-sociales)__
+
+__[8 Informatica Forense, legalidades y procedimientos](#8-Informatica-Forense,-legalidades-y-procedimientos)__
+
+__[9 Anonimato Dark Web Deep Web](#9-Anonimato-Dark-Web-Deep-Web)__
+
+__[10 Exploits](#10-Exploits)__
+
+__[11 Seguridad Informatica Avanzada](11-Seguridad-Informatica-Avanzada)__
+
+
 
 
 # 1 Firewall en Sistemas Operativos
@@ -326,21 +345,11 @@ Explicación: Al forzar al usuario a enviar una solicitud no deseada a un servid
 
 
 
-display_errors = On
-
-error_reporting = E_ALL
 
 
 
-GRANT ALL PRIVILEGES ON database.* TO 'cisco'@'localhost' IDENTIFIED BY 'password';
-FLUSH PRIVILEGES;
-
-http://192.168.1.9/DVWA/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%28document.cookie%29%3C%2Fscript%3E#
-
-
-
-# Filosofia del Hacking
-# Cripgrafia
+# 3 Filosofia del Hacking
+# 4 Cripgrafia
 
 ### Ofuscación de Payloads (Cargas Útiles)
 Modificar el contenido de las cargas útiles de los paquetes para evitar la detección por parte de firewalls y sistemas de detección de intrusiones (IDS).
@@ -362,15 +371,16 @@ cryptcat -k mysecretkey <server_ip> 4444
 
 
 
-# La metodología OSINT
-# CVEs y CEWs
+# 5 La metodología OSINT
+# 6 CVEs y CEWs
 
 
-# Phising de redes sociales
-# Informatica Forense, legalidades y procedimientos
+# 7 Phising de redes sociales
+# 8 Informatica Forense, legalidades y procedimientos
 
 
-# Anonimato Dark Web Deep Web
+# 9 Anonimato Dark Web Deep Web
+
 ### Uso de Proxies y Redes Tor
 Utilizar proxies y redes Tor para ocultar la dirección IP de origen y eludir los filtros de firewall que bloquean direcciones IP específicas.
 Los proxies actúan como intermediarios que reenvían las solicitudes al servidor final, mientras que Tor es una red que anonimiza el tráfico de internet.
@@ -398,6 +408,6 @@ Este comando envía una solicitud HTTP a targetwebsite a través de la red Tor, 
 
 
 
-# Exploits
+# 10 Exploits
 
-# Seguridad Informatica Avanzada
+# 11 Seguridad Informatica Avanzada
